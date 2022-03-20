@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+#aboutme{
+    margin: 0px;
+}
+#texto_sobremim{
+    margin: 5px;
+    font-size: 22px;
+    font: bolder;
+}
+#linkmyhistory,#linkmygoals,#linkmyprojects{
+    text-decoration: none;
+}
+#linkmyhistory:hover,#linkmygoals:hover,#linkmyprojects:hover{
+    text-decoration:underline;
+}
