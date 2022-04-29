@@ -12,21 +12,83 @@
 <body>
     <header>
         <nav>
+            <a href="myhistory.html">
+                <img src="history.png" alt="history" class="imagem">
+            </a>
             <!--Pagina que conta minha história-->
-            <a id="linkmyhistory" href="myhistory.html" target="_blank" title="Conheça um pouco mais sobre mim">Minha
+            <a id="linkmyhistory" class="links" href="myhistory.html"title="Conheça um pouco mais sobre mim">Minha
                 História</a>
+                <br>
+
+                <a href="mygoals.html">
+                    <img src="goals.png" alt="goals" class="imagem">
+                </a>
             <!--Pagina que diz um pouco mais sobre meus objetivos-->
-            <a id="linkmygoals" href="mygoals.html" target="_blank" title="Veja os meus objetivos">Meus Objetivos</a>
+            <a id="linkmygoals" class= "links" href="mygoals.html" title="Veja os meus objetivos">Meus Objetivos</a>
+            <br>
+            
+            <a href="myprojects.html">
+                <img src="job.png" alt="project" class="imagem">
+            </a>
             <!--Pagina que mostra meus Projetos-->
-            <a id="linkmyprojects" href="myprojects.html" target="_blank" title="Explore os Projetos">Meus Projetos</a>
+            <a id="linkmyprojects" class="links" href="myprojects.html" title="Explore os Projetos">Meus Projetos</a>
+            <br>
+        
         </nav>
     </header>
 
     <main>
         <div>
-
             <p>
+               <h1>Um pouco sobre a Área</h1>
+                Você já ouviu falar na carreira de <strong>Desenvolvedor?</strong> Quem se interessa por tecnologia e computação precisa conhecer as possibilidades dessa profissão, pois ela está em alta no mercado.
+            </p>
+        </div>
+        <div>
+            <p>
+                <h3>O que é um Desenvolvedor?</h3>
+                Os profissionais de TI são estratégicos dentro de uma empresa. A necessidade de ter pessoas capacitadas para exercer funções na área de desenvolvimento de sistemas é crescente, pois automação e digitalização são cada vez mais importantes para os negócios.<br><br>Com a transformação digital, algumas carreiras vêm se destacando no mercado, como o cargo de desenvolvedor. Dificilmente uma empresa sobrevive de forma eficiente sem a participação desse profissional em sua equipe. Isso se aplica a qualquer setor.<br><br>Ter alguém que proponha soluções tecnológicas para facilitar o desenvolvimento de processos organizacionais permite crescimento e avanços mais rápidos de uma empresa.
+            </p>
+        </div>
+        <div>
+            <p>
+                <h3>E o que faz um Desenvolvedor?</h3>
+                O desenvolvedor tem a função de criar soluções tecnológicas dentro de uma organização. Ele é responsável por desenvolver sistemas que simplifiquem grande parte dos processos organizacionais, como os realizados pelo setor comercial, administrativo ou financeiro.<br><br>A atuação desse profissional é fundamental para os negócios. Afinal, ele analisa, executa e faz a manutenção de programas, plataformas e linguagens, além de corrigir possíveis erros que atrapalham os serviços da empresa.
+            </p>
+        </div>
+        <div>
+            <p>
+                <h3>Intuito desse site</h3>
                 Esse site, foi feito com intuito de mostrar um pouco sobre mim e minha carreira como Desenvolvedor.
+            </p>
+        </div>
+        <div>
+            <p id="envioemail"> 
+                   Caso queira entrar em contato envie um e-mail, preencha o formulário abaixo
+                <fieldset id="form1">
+                        <legend><strong>Envie uma mensagem</strong></legend>
+                    <form action="home.html" method="post">
+
+                        <label for="nome"> Insira seu nome:</label>
+                            <input type="text" name=name id="nome" required minlength="3"><br>
+
+                        <label for="email">Insira seu melhor e-mail:</label>
+                            <input type="email" name= email id="email"required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9-.]+$)" title="Insira o e-mail corretamente ex: exemplo@exemplo.com"><br>
+
+                        <label>
+                            Insira sua mensagem:<br>
+                            <textarea name="descricao" id="descricao"></textarea>
+                        </label>
+                        <br><br>
+                        <label>
+                            <input type=checkbox required minlength="10"/>
+                            Eu declaro que li e concordo com os <a id="termosdeuso" href="termosdeuso.html" target="_blank">termos de uso.</a>
+                        </label>
+                    
+                            
+                        <button>Enviar</button>
+                    </form>
+                </fieldset>
             </p>
         </div>
     </main>
