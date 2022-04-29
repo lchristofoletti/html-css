@@ -1,20 +1,90 @@
 *{
     box-sizing: border-box;
+
 }
 body{
     margin: 0%;
 }
+div{
+    font-size: 1rem;
+}
+label{
+    display: block;
+}
+input[type=text],[type=email],textarea{
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    margin-top: 5px;
+    outline: 0;
+}
+textarea{
+    height: 15rem;
+    resize: none;
+}
+button{
+    margin-left: 25rem;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #eee;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:#aaa;
+}
+legend{
+    text-align: center;
+    background-color:#999;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1rem;
+}
 #aboutme{
     margin: 0px;
+    
 }
 #texto_sobremim{
     margin: 5px;
-    font-size: 22px;
     font: bolder;
 }
-#linkmyhistory,#linkmygoals,#linkmyprojects{
+#envioemail{
+    font-size: 20px;
+}
+#termosdeuso{
     text-decoration: none;
 }
-#linkmyhistory:hover,#linkmygoals:hover,#linkmyprojects:hover{
-    text-decoration:underline;
+#termosdeuso:hover{
+    text-decoration: underline;
+}
+#form1{
+    margin-left: 20px;
+    width:30rem ;
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+}
+.links:hover{
+    text-decoration: underline;
+}
+.links:visited{
+    color: blue;
+}
+.backhome{
+    text-decoration: none;
+    color: blue;
+}
+.backhome:hover{
+    text-decoration: underline;
+}
+.backhome:visited{
+    color: blue;
+}
+.imagem{
+   width: 2rem;
+   height: 2rem;
 }
