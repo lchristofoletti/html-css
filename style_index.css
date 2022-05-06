@@ -1,9 +1,31 @@
+/*Tags*/
 *{
-    box-sizing: border-box;
-
+    box-sizing: border-box;  
 }
 body{
     margin: 0%;
+    background: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+header {
+    margin-top: 0%;
+    background: black;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+}
+main{
+    margin-left: 5px;
+}
+footer{
+    margin-left: 0%;
+    background: black;
+    width: 100%;
+    height: 60px;
 }
 div{
     font-size: 1rem;
@@ -12,18 +34,19 @@ label{
     display: block;
 }
 input[type=text],[type=email],textarea{
-    width: 500px;
-    font-size: 15px;
+    width: 25em;
+    font-size: 1em;
     border: 1px solid #CCC;
     margin-top: 5px;
     outline: 0;
+    padding: 3px;
 }
 textarea{
     height: 15rem;
     resize: none;
 }
 button{
-    margin-left: 25rem;
+    margin-left: 20rem;
     padding: 10px;
     font-size: 15px;
     border: 1px solid #CCC;
@@ -40,6 +63,38 @@ legend{
     border-radius: 5px;
     padding: 1rem;
 }
+
+
+/*Classes*/
+.credits{
+    margin-left: 0%;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;   
+}
+.links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.links:hover{
+    text-decoration: underline;
+}
+.links:visited{
+    color: rgb(255, 255, 255);
+}
+.backhome{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.backhome:hover{
+    text-decoration: underline;
+}
+.backhome:visited{
+    color: rgb(255, 255, 255);
+}
+
+/*Id*/
 #aboutme{
     margin: 0px;
     
@@ -49,7 +104,7 @@ legend{
     font: bolder;
 }
 #envioemail{
-    font-size: 20px;
+    font-size: 1.3em;
 }
 #termosdeuso{
     text-decoration: none;
@@ -57,34 +112,36 @@ legend{
 #termosdeuso:hover{
     text-decoration: underline;
 }
-#form1{
-    margin-left: 20px;
-    width:30rem ;
-    background-color: #ddd;
-    border-radius: 15px;
-}
-
-.links{
-    text-decoration: none;
-    color: blue;
-}
-.links:hover{
-    text-decoration: underline;
-}
-.links:visited{
-    color: blue;
-}
-.backhome{
-    text-decoration: none;
-    color: blue;
-}
-.backhome:hover{
-    text-decoration: underline;
-}
-.backhome:visited{
-    color: blue;
-}
-.imagem{
-   width: 2rem;
+#iconh{
+    width: 2rem;
    height: 2rem;
+ position: fixed;
+ left: 20%;
+}
+#icong{
+    width: 2rem;
+   height: 2rem;
+    position: fixed;
+    left: 40%;
+}
+#iconp{
+    width: 2rem;
+   height: 2rem;
+    position: fixed;
+    left: 60%;
+}
+#linkmyhistory{
+    position: fixed;
+    left: 19%;
+    top:6%;
+}
+#linkmygoals{
+    position: fixed;
+    left: 37%;
+    top:6%;
+}
+#linkmyprojects{
+    position: fixed;
+    left: 58%;
+    top:6%;
 }
