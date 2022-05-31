@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body { 
+    margin: 0%;
+    font-family: 'Press Start 2P', cursive;
+    background: url(/images/pagina1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    font-size: 1.5em;
+}
+footer{
+    width: 100%;
+    font-size: 0.6em;
+}
+.credit {
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.credit a {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
+}
