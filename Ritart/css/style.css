@@ -1,0 +1,23 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+main{
+    background:linear-gradient(to right,#105b6f,#cee195);
+}
+em{
+    font-size: small;
+}
+#about{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 1s
+}
+#about:visited{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+#about:hover{
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em rgb(20, 20, 20);
+}
